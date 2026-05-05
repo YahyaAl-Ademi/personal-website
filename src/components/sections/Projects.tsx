@@ -66,7 +66,7 @@ export default function Projects() {
       <div className="container mx-auto px-6">
         <div ref={head.ref} style={head.style} className={`${fade} flex flex-col items-center mb-16`}>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-4 text-center">
-            Featured <span className="text-primary">Projects</span>
+            My <span className="text-primary">Projects</span>
           </h2>
           <div className="w-20 h-1 bg-primary rounded-full" />
         </div>
@@ -81,9 +81,13 @@ export default function Projects() {
                 <div className="p-6 pb-0">
                   <div className="flex justify-between items-start mb-2">
                     {item.featured ? (
-                      <span className="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold bg-primary text-primary-foreground">Featured Project</span>
+                      <span className="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold bg-primary text-primary-foreground">
+                        Featured
+                      </span>
                     ) : (
-                      <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold text-muted-foreground border-border">Project</span>
+                      <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold text-muted-foreground border-border">
+                        Project
+                      </span>
                     )}
                   </div>
                   <h3 className="text-xl md:text-2xl font-bold group-hover:text-primary transition-colors mt-2">
