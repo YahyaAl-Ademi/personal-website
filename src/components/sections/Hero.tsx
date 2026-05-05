@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 import { Download, ChevronDown } from "lucide-react";
 
 export default function Hero() {
@@ -86,6 +87,15 @@ export default function Hero() {
             aria-label="LinkedIn"
           >
             <FaLinkedin className="w-8 h-8" />
+          </a>
+          <a
+            href="https://scholar.google.com/citations?user=9JHCsDMAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors p-2"
+            aria-label="Google Scholar"
+          >
+            <SiGooglescholar className="w-8 h-8" />
           </a>
         </div>
       </div>

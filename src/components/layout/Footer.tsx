@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -30,6 +31,15 @@ export default function Footer() {
             aria-label="LinkedIn"
           >
             <FaLinkedin className="w-5 h-5" />
+          </a>
+          <a
+            href="https://scholar.google.com/citations?user=9JHCsDMAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors p-2"
+            aria-label="Google Scholar"
+          >
+            <SiGooglescholar className="w-5 h-5" />
           </a>
         </div>
       </div>

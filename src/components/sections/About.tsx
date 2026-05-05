@@ -94,7 +94,17 @@ export default function About() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-lg">R&D Researcher</h4>
-                      <p className="text-sm text-muted-foreground">Published 40 papers and 2 books. Mastered analytical rigor.</p>
+                      <p className="text-sm text-muted-foreground">
+                        Published 40 papers and 2 books. Mastered analytical rigor.{" "}
+                        <a
+                          href="https://scholar.google.com/citations?user=9JHCsDMAAAAJ&hl=en"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline font-medium"
+                        >
+                          Google Scholar
+                        </a>
+                      </p>
                     </div>
                   </div>
 
