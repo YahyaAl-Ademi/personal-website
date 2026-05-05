@@ -34,7 +34,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-foreground">Yahya Al-Ademi</h3>
-                <p className="text-sm text-primary font-mono">Full-Stack Developer</p>
+                <p className="text-sm text-primary font-mono">Junior Full-Stack Developer</p>
                 <p className="text-xs text-muted-foreground mt-0.5">Berkel en Rodenrijs, Netherlands</p>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function About() {
                       <Code size={20} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-lg text-primary">Full-Stack Developer</h4>
+                      <h4 className="font-bold text-lg text-primary">Junior Full-Stack Developer</h4>
                       <p className="text-sm text-foreground/80">Applying analytical depth to modern web technologies.</p>
                     </div>
                   </div>
