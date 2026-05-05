@@ -6,19 +6,19 @@ const education = [
     degree: "PhD in Biomedical Engineering",
     institution: "BSUIR",
     location: "Minsk, Belarus",
-    period: "2011 – 2015",
+    period: "2011 to 2015",
   },
   {
     degree: "MSc in Computer Systems for Medical Apparatus",
     institution: "Vinnitsa National Technical University",
     location: "Vinnitsa, Ukraine",
-    period: "2008 – 2010",
+    period: "2008 to 2010",
   },
   {
     degree: "BSc in Biomedical Engineering",
     institution: "Vinnitsa National Technical University",
     location: "Vinnitsa, Ukraine",
-    period: "2004 – 2008",
+    period: "2004 to 2008",
   },
 ];
 

@@ -46,6 +46,13 @@ export default function About() {
               <p>
                 I believe clear communication and a supportive team are key to doing great work. I face challenges with patience and consistency. I prefer to understand the reason behind a problem before deciding how to solve it.
               </p>
+              <p>
+                In the{" "}
+                <a href="#projects" className="text-primary font-medium hover:underline">
+                  projects
+                </a>{" "}
+                section, each card ends with a short outcome: who it is for, what problem it solves, or what it shows a hiring team.
+              </p>
             </div>
 
             <div className="pt-6 border-t border-border">

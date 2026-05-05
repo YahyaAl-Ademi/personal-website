@@ -5,19 +5,19 @@ const experiences = [
   {
     title: "Full-Stack Developer Trainee",
     company: "HackYourFuture Amsterdam",
-    period: "2025 – Present",
+    period: "2025 to present",
     description: "Built PERN-stack apps, REST APIs, React apps with state management, full-stack platform with authentication and user dashboard.",
   },
   {
     title: "R&D Researcher",
     company: "BSUIR, Minsk, Belarus",
-    period: "2015 – 2017",
+    period: "2015 to 2017",
     description: "Applied research in electromagnetic absorption and EMI shielding. Published 40 papers, authored 2 books, presented at international conferences.",
   },
   {
     title: "STEM Teacher",
     company: "Secondary School of Arab Solidarity, Minsk",
-    period: "2012 – 2017",
+    period: "2012 to 2017",
     description: "Taught Physics, Math, Statistics, Electrical Engineering. Improved Physics results by 10%.",
   },
 ];

@@ -7,6 +7,8 @@ const projects = [
   {
     title: "Job Compass",
     description: "Full-stack job listing platform with authentication, role-based access, RESTful APIs, and relational database design.",
+    outcome:
+      "Companies and job seekers get a full flow from sign-up to listings, with real roles and data in PostgreSQL. It's the closest thing on this site to a small, production-style product.",
     tech: ["React", "Node.js", "Express", "PostgreSQL"],
     github: "https://github.com/YahyaAl-Ademi/Job-Compass-Fullstack-App",
     live: "https://job-compass.org/",
@@ -15,6 +17,8 @@ const projects = [
   {
     title: "Weather App (React)",
     description: "Responsive weather app using real-time API data and async requests with dynamic backgrounds.",
+    outcome:
+      "People get live conditions for a city they pick, with async API calls and UI that still feels smooth on a phone.",
     tech: ["React", "JavaScript", "External APIs"],
     github: "https://github.com/YahyaAl-Ademi/React-Weather-App",
     live: "https://weatherapp102025.netlify.app/",
@@ -23,6 +27,8 @@ const projects = [
   {
     title: "Weather Dashboard",
     description: "Real-time weather for any city using OpenWeatherMap API, no frameworks. Pure JavaScript implementation.",
+    outcome:
+      "Same idea as the React weather app, but without a framework on purpose, so it's clear I can work in plain JS, the DOM, and fetch when there's no library in the stack.",
     tech: ["Vanilla JS", "HTML", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/Vanilla-JS-Weather-Dashboard",
     live: "https://weather-app-ey6z.onrender.com/",
@@ -31,6 +37,8 @@ const projects = [
   {
     title: "Interactive Quiz",
     description: "Client-side quiz app demonstrating core web fundamentals, DOM manipulation, and state management.",
+    outcome:
+      "Someone taking the quiz gets clear questions and instant scoring. I kept all state and updates in the browser without a library.",
     tech: ["Vanilla JS", "HTML", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/Interactive-js-quiz",
     live: "https://qius-app-2025.netlify.app/",
@@ -39,6 +47,8 @@ const projects = [
   {
     title: "E-commerce Shop",
     description: "Shopping platform with product filtering, cart functionality, and responsive UI.",
+    outcome:
+      "Users can browse, filter, and use a cart in one flow. That's the sort of retail-style pattern employers know from real online shops.",
     tech: ["React", "JavaScript", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/E-commerce-Platform",
     live: "https://e-commerce-platform-2025.vercel.app/",
@@ -81,8 +91,11 @@ export default function Projects() {
                   </h3>
                 </div>
                 <div className="p-6 flex-1">
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
                     {item.description}
+                  </p>
+                  <p className="text-sm text-foreground/90 leading-relaxed border-l-2 border-primary/50 pl-3 mb-6">
+                    {item.outcome}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {item.tech.map((tech) => (
