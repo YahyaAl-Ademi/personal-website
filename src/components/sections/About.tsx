@@ -41,7 +41,7 @@ export default function About() {
 
             <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
               <p>
-                I'm a calm and analytical person who enjoys breaking down complex problems and finding the best solutions. I like working with code and research, but I also care about the human side of work.
+                I'm a calm and analytical person who enjoys breaking down complex problems and finding the best solutions. I like working with code and tough technical questions, and I care about the human side of work.
               </p>
               <p>
                 I believe clear communication and a supportive team are key to doing great work. I face challenges with patience and consistency. I prefer to understand the reason behind a problem before deciding how to solve it.

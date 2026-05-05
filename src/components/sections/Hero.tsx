@@ -38,11 +38,11 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium text-foreground/80 mb-6 font-mono tracking-tight">
-          Full-Stack Developer | Analytical Thinker | Problem Solver
+          Junior Full-Stack Developer | React & Node.js | Open to Work in NL
         </h2>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          From PhD research to full-stack development. I bring depth, clarity, and curiosity to every project.
+          I hold a PhD in biomedical engineering and now focus on software. I want to ship real products and keep growing with a good team.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-12">
