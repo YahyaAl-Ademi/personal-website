@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send, CheckCircle2, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, Send, CheckCircle2, MessageCircle, BadgeCheck } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID as string | undefined;
@@ -130,6 +130,16 @@ export default function Contact() {
                   <p className="text-foreground">
                     Berkel en Rodenrijs,<br />Netherlands
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4 group">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
+                  <BadgeCheck size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground font-medium mb-1">Work eligibility</p>
+                  <p className="text-foreground">Eligible to work in the Netherlands and the EU.</p>
                 </div>
               </div>
             </div>
