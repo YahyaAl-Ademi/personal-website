@@ -5,7 +5,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const projects = [
   {
-    title: "Job-Compass-Fullstack-App",
+    title: "Job Compass",
     description: "Full-stack job listing platform with authentication, role-based access, RESTful APIs, and relational database design.",
     tech: ["React", "Node.js", "Express", "PostgreSQL"],
     github: "https://github.com/YahyaAl-Ademi/Job-Compass-Fullstack-App",
@@ -13,7 +13,7 @@ const projects = [
     featured: true
   },
   {
-    title: "React Weather Forecast App",
+    title: "Weather App (React)",
     description: "Responsive weather app using real-time API data and async requests with dynamic backgrounds.",
     tech: ["React", "JavaScript", "External APIs"],
     github: "https://github.com/YahyaAl-Ademi/React-Weather-App",
@@ -21,7 +21,7 @@ const projects = [
     featured: false
   },
   {
-    title: "Vanilla JS Weather Dashboard",
+    title: "Weather Dashboard",
     description: "Real-time weather for any city using OpenWeatherMap API, no frameworks. Pure JavaScript implementation.",
     tech: ["Vanilla JS", "HTML", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/Vanilla-JS-Weather-Dashboard",
@@ -29,7 +29,7 @@ const projects = [
     featured: false
   },
   {
-    title: "Interactive JS Quiz",
+    title: "Interactive Quiz",
     description: "Client-side quiz app demonstrating core web fundamentals, DOM manipulation, and state management.",
     tech: ["Vanilla JS", "HTML", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/Interactive-js-quiz",
@@ -37,7 +37,7 @@ const projects = [
     featured: false
   },
   {
-    title: "E-commerce Platform",
+    title: "E-commerce Shop",
     description: "Shopping platform with product filtering, cart functionality, and responsive UI.",
     tech: ["React", "JavaScript", "CSS"],
     github: "https://github.com/YahyaAl-Ademi/E-commerce-Platform",
