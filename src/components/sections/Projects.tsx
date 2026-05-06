@@ -6,9 +6,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const projects = [
   {
     title: "Job Compass",
-    description: "A full sign-up to job listings flow, backed by PostgreSQL. The closest project on this site to a production-ready product.",
+    description:
+      "Full-stack job listing platform with authentication, role-based access, RESTful APIs, and relational database design.",
     outcome:
-      "Companies and job seekers get a full flow from sign-up to listings, with real roles and data in PostgreSQL. It's the closest thing on this site to a small, production-style product.",
+      "A full sign-up to job listings flow, backed by PostgreSQL. The closest project on this site to a production-ready product..",
     tech: ["React", "Node.js", "Express", "PostgreSQL"],
     github: "https://github.com/YahyaAl-Ademi/Job-Compass-Fullstack-App",
     live: "https://job-compass.org/",
@@ -16,7 +17,8 @@ const projects = [
   },
   {
     title: "Weather App (React)",
-    description: "Real-time weather data with async API calls and dynamic backgrounds, fully responsive on mobile.",
+    description:
+      "Responsive weather app using real-time API data and async requests with dynamic backgrounds.",
     outcome:
       "People get live conditions for a city they pick, with async API calls and UI that still feels smooth on a phone.",
     tech: ["React", "JavaScript", "External APIs"],
