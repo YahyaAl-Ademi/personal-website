@@ -168,7 +168,7 @@ export default function Contact() {
                         id="name"
                         name="name"
                         required
-                        placeholder="yahya"
+                        placeholder="e.g. Ahmed Johnson"
                         className="flex h-12 w-full rounded-md border border-border bg-background/50 px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                       />
                     </div>
@@ -181,7 +181,7 @@ export default function Contact() {
                         name="email"
                         type="email"
                         required
-                        placeholder="yahya@example.com"
+                        placeholder="e.g. ahmed@company.com"
                         className="flex h-12 w-full rounded-md border border-border bg-background/50 px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                       />
                     </div>
@@ -195,7 +195,7 @@ export default function Contact() {
                       id="subject"
                       name="subject"
                       required
-                      placeholder="Job opportunity or other topic"
+                      placeholder="e.g. Job Opportunity at Your Company"
                       className="flex h-12 w-full rounded-md border border-border bg-background/50 px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                     />
                   </div>
@@ -208,7 +208,7 @@ export default function Contact() {
                       id="message"
                       name="message"
                       required
-                      placeholder="Hi, I am writing to ask about..."
+                      placeholder="e.g. Hi Yahya, I came across your portfolio and would love to connect..."
                       className="flex min-h-[150px] w-full rounded-md border border-border bg-background/50 px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary disabled:cursor-not-allowed disabled:opacity-50 md:text-sm resize-y"
                     />
                   </div>
