@@ -26,7 +26,7 @@ export default function About() {
             <div className="flex items-center gap-5 mb-2">
               <div className="relative flex-shrink-0">
                 <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-primary via-cyan-400 to-primary/40 blur-md opacity-80" />
-                <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-primary/60 shadow-2xl shadow-primary/20">
+                <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-primary/60 shadow-2xl shadow-primary/20">
                   <img
                     src="/profile.png"
                     alt="Yahya Al-Ademi"
