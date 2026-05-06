@@ -43,7 +43,7 @@ export default function Hero() {
         </h2>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          I hold a PhD in biomedical engineering and now focus on software. I want to ship real products and keep growing with a good team.
+          PhD researcher turned Full-Stack Developer I build clean, scalable web products and I'm ready to contribute to your team.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-12">
