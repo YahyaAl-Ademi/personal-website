@@ -25,12 +25,14 @@ export default function About() {
           <div ref={leftCol.ref} style={leftCol.style} className={`${fade(leftCol.show)} space-y-6`}>
             <div className="flex items-center gap-5 mb-2">
               <div className="relative flex-shrink-0">
-                <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-br from-primary to-cyan-400 opacity-50 blur-sm" />
-                <img
-                  src="/profile.png"
-                  alt="Yahya Al-Ademi"
-                  className="relative w-20 h-20 rounded-2xl object-cover object-[50%_12%] border border-primary/30"
-                />
+                <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-primary via-cyan-400 to-primary/40 blur-md opacity-80" />
+                <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-primary/60 shadow-2xl shadow-primary/20">
+                  <img
+                    src="/profile.png"
+                    alt="Yahya Al-Ademi"
+                    className="w-full h-full object-cover object-[50%_12%]"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-foreground">Yahya Al-Ademi</h3>
