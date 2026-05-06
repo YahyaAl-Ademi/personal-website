@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Weather App (React)",
-    description: "Responsive weather app using real-time API data and async requests with dynamic backgrounds.",
+    description: "Real-time weather data with async API calls and dynamic backgrounds fully responsive on mobile.",
     outcome:
       "People get live conditions for a city they pick, with async API calls and UI that still feels smooth on a phone.",
     tech: ["React", "JavaScript", "External APIs"],
