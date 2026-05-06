@@ -6,7 +6,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const projects = [
   {
     title: "Job Compass",
-    description: "Full-stack job listing platform with authentication, role-based access, RESTful APIs, and relational database design.",
+    description: "A full sign-up to job listings flow, backed by PostgreSQL. The closest project on this site to a production-ready product.",
     outcome:
       "Companies and job seekers get a full flow from sign-up to listings, with real roles and data in PostgreSQL. It's the closest thing on this site to a small, production-style product.",
     tech: ["React", "Node.js", "Express", "PostgreSQL"],
