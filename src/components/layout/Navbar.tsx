@@ -57,6 +57,13 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="#contact"
+            onClick={(e) => onNavClick(e, "#contact")}
+            className="text-sm font-semibold tracking-wide rounded-md px-4 py-2 bg-accent text-accent-foreground border border-accent-border shadow-sm hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            Hire Me
+          </a>
         </nav>
 
         <button
@@ -80,6 +87,13 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="#contact"
+            onClick={(e) => onNavClick(e, "#contact")}
+            className="text-center text-base font-semibold rounded-md px-4 py-3 mt-1 bg-accent text-accent-foreground border border-accent-border shadow-sm hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            Hire Me
+          </a>
         </div>
       )}
     </header>
